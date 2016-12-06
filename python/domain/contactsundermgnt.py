@@ -36,6 +36,6 @@ for domain in domains:
         print "Domain " + domain['fqdn'] + " Admin " + admin + " is not managed by us."
     if (found_owner == False):
         print "Domain " + domain['fqdn'] + " Owner " + owner + " is not managed by us."
-print "All contacts under owner management:"
+print "All contacts under our management:"
 for contact in contacts:
     print contact['handle']
