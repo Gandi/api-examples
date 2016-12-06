@@ -8,7 +8,6 @@ import xmlrpclib
 api = xmlrpclib.ServerProxy('https://rpc.gandi.net/xmlrpc/')
 apikey = 'your-api-key'
 contacts = api.contact.list(apikey)
-domains = domain.list(apikey)
 domains = api.domain.list(apikey)
 for domain in domains:
     domaininfo = api.domain.info(apikey,domain['fqdn'])
