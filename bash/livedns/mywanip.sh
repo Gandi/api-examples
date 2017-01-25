@@ -15,7 +15,7 @@ APIKEY="my-api-key"
 
 
 API="https://dns.beta.gandi.net/api/v5/"
-IP_SERVICE="http://ip.bit.fr"
+IP_SERVICE="http://me.gandi.net"
 
 IP4=$(curl -s4 $IP_SERVICE)
 IP6=$(curl -s6 $IP_SERVICE)
