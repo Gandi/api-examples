@@ -6,6 +6,7 @@
 # Set RECORD to which zone label you wish to update.
 # You will be able to query mywanip.example.net if everything went successful.
 # 
+# Live dns is available on beta.gandi.net
 # Obtaining your API Key: http://doc.livedns.gandi.net/#requirements
 #
 
