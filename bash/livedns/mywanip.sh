@@ -15,7 +15,7 @@ RECORD="mywanip"
 APIKEY="my-api-key"
 
 
-API="https://dns.beta.gandi.net/api/v5/"
+API="https://dns.api.gandi.net/api/v5/"
 IP_SERVICE="http://me.gandi.net"
 
 IP4=$(curl -s4 $IP_SERVICE)
